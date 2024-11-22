@@ -15,6 +15,7 @@ a {
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 /* Header */
@@ -33,13 +34,13 @@ header ul {
     gap: 30px;
 }
 
-header .logo {
+header .head {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-header .logo a {
+header .head a {
     display: flex;
     gap: 7px;
     align-items: center;
@@ -141,9 +142,8 @@ footer {
 }
 
 footer .container {
-    width: 1000px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -157,6 +157,10 @@ footer h3 {
 /* Responsive for tablet */
 
 @media (max-width:1199px) and (min-width: 768px){
+    .container {
+        padding: 10px;
+    }
+
     /* header */
     header img {
         display: none;
@@ -175,22 +179,33 @@ footer h3 {
 
     .set .combo h3 {
         padding-left: 50px;
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 0;
     }
 
     .set .combo p {
         padding-left: 50px;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0;
     }
 
-
+    /* Footer */
+    footer .container {
+        justify-content: space-evenly;
+    }
 }
 
 /* Responsive for Mobile */
 @media (max-width: 767px){
+    .container {
+        padding: 10px;
+    }
+
     /* Header */
+    header .logo {
+        display: none;
+    }
+
     header ul {
         display: none;
     }
@@ -207,6 +222,20 @@ footer h3 {
     .set .combo h3,
     .set .combo p {
         padding-left: 20px;
+    }
+
+    .set .combo img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .set .combo h3 {
+        font-size: 20px;
+    }
+
+    .set .combo p {
+        font-size: 18px;
     }
 
     /* Footer */
