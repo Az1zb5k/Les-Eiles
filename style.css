@@ -156,7 +156,7 @@ footer h3 {
 
 /* Responsive for tablet */
 
-@media (max-width:1199px){
+@media (max-width:1199px) and (min-width: 768px){
     /* header */
     header img {
         display: none;
@@ -164,7 +164,7 @@ footer h3 {
 
     /* Set */
     .set .combos .combo {
-        width: 32%;
+        width: 30%;
     }
 
     .set .combo img {
@@ -175,7 +175,7 @@ footer h3 {
 
     .set .combo h3 {
         padding-left: 50px;
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 0;
     }
 
