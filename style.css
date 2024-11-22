@@ -13,7 +13,7 @@ a {
 }
 
 .container {
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -55,6 +55,7 @@ header ul a {
 }
 
 header ul a:hover {
+    color: #FC004A;
     transform: scale(1.1);
     display: block;
 }
@@ -98,6 +99,7 @@ header ul a:hover {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 10px;
+    margin-top: 0;
 }
 
 .set .combo p {
@@ -107,6 +109,7 @@ header ul a:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: #FC004A;
     padding: 0 10px;
+    margin: 0;
 }
 
 .set .combo div {
@@ -146,3 +149,4 @@ footer h3 {
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
